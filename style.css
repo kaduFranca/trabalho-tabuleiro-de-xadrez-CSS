@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+body {
+    background-image: url(img/fundo-madeira.jpg);
+    background-size: 100vw 100vh;
+    display: block;
+    margin: 8px;
+    background-color: bisque;
+}
+
+.tabuleiro {
+    background-color: white;
+    width: 50vw;
+    height: 95vh;
+    min-width: 30em;
+    min-height: 20em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.bord {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.rei-p {
+    font-size: 300%;
+}
+
+.rainha-branca {
+    font-size: 300%;
+}
+
+.linha-base {
+    width: 100%;
+    height: 5%;
+    display: flex;
+}
+
+.lateral-bord-num {
+    width: 5%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    font-family: 'Tapestry', cursive;
+}
+
+.lateral-bord-num-invert {
+    width: 5%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    transform: rotate(180deg);
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    font-family: 'Tapestry', cursive;
+}
+
+.quadrado-top-secundario {
+    width: 7%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrado-top-2 {
+    width: 10%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(180deg);
+    color: white;
+    font-family: 'Tapestry', cursive;
+}
+
+.linha-base {
+    width: 100%;
+    height: 8%;
+    display: flex;
+}
+
+.linha-base-bord {
+    width: 100%;
+    height: 1%;
+    display: flex;
+}
+
+.lateral-bord-b {
+    width: 5%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.quadrado-top-p {
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.linha {
+    width: 100%;
+    height: 9.5%;
+    display: flex;
+}
+
+.lateral-bord-p {
+    width: 2%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.quadrado-p {
+    width: 9.5%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 150%;
+    font-family: 'Tapestry', cursive;
+}
+
+.quadrado-b {
+    width: 9.5%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+    font-family: 'Tapestry', cursive;
+}
+
+.quadrado-top-p {
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.quadrado-top-b {
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.quadrado-top {
+    width: 10%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Tapestry', cursive;
+}
